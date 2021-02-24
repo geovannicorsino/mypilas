@@ -247,12 +247,16 @@
     left: 0;
     bottom: 0;
 
+    display: none;
     width: 200px;
-
     padding: 2rem;
     border-right: 1px solid #eee;
 
     background-color: #fbfbfb;
+  }
+
+  .menu--exibindo{
+    display: block;
   }
 
   .menu__item {
