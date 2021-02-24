@@ -1,20 +1,19 @@
 .layout-cabecalho {
     height: 60px;
+    line-height: 60px;
     border-bottom: 1px solid #ccc;
 
     background-color: #fff;
 }
 
 .layout-cabecalho--home {
+border-radius: 3px;
+
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9999;
-}
-
-.layout-cabecalho img {
-    margin-top: 12px;
 }
 
 .layout-planos {
