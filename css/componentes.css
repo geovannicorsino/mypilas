@@ -84,7 +84,7 @@
 
 .botao--assinar,
 .botao--login {
-  background-color: #127d00;
+  background-color: #1c9407;
 }
 
 .botao--assinar:hover,
@@ -95,7 +95,7 @@
 }
 
 .botao--principal {
-  background-color: #004b86;
+  background-color: var(--blue);
 }
 
 .botao--principal:hover,
@@ -333,4 +333,38 @@
   background-color: #fff;
 
   font-size: 1.4rem;
+}
+
+/*--------------------*\
+  LOGIN
+\*--------------------*/
+
+.login {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aaafb4;
+  border-radius: 1rem;
+  padding: 3rem;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
+
+  background: var(--gray);
+
+}
+
+.login>a {
+  align-self: center;
+  width: 150px;
+  height: 60px;
+  padding-top: 1.5rem;
+}
+
+.login-esqueci-senha {
+  padding-top: 1rem;
+}
+
+.login-esqueci-senha>a {
+  color: #000203;
+
+  font-weight: bold;
+  text-decoration: none;
 }
