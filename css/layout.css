@@ -7,7 +7,7 @@
 }
 
 .layout-cabecalho--home {
-border-radius: 3px;
+    border-radius: 3px;
 
     position: fixed;
     top: 0;
@@ -42,8 +42,12 @@ border-radius: 3px;
     text-align: center;
 }
 
-@media(max-width: 767px){
-    .layout-planos .row > div:not(.ultima-coluna){
+@media(max-width: 767px) {
+    .layout-planos .row>div:not(.ultima-coluna) {
         margin-bottom: 40px;
     }
+}
+
+.layout-assinatura {
+    padding: 40px 0;
 }
